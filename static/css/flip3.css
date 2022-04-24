@@ -1,0 +1,151 @@
+/*************************************************
+ *  Additional Styles from Flip; Aug 2017
+ * Relative to Hugo Theme Academic defaults
+ **************************************************/
+
+ /* GENERAL FORMATTING */
+ /* Make the default text size smaller, and Raleway */
+ @media screen and (min-width: 58em) {
+   html {
+     font-size: 18px;
+   }
+ }
+
+/* Typography */
+
+h1 {
+  font-size: 1.5rem;
+}
+
+h2 {
+  font-size: 1rem;
+}
+
+h1, h2 {
+  font-family: 'Cinzel', serif;
+}
+
+p {
+  font-family: 'Cinzel', 'EB Garamond', serif;
+}
+
+
+
+
+
+
+
+#profile .portrait {
+  background-image: url('../img/FullSizeRender.jpg');
+  width: 230px;
+  height: 290px;
+  margin: 0 auto;
+  border-radius: 50%;
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+}
+
+
+
+
+#flip-moved-social-icons ul.social-icon {
+  display: inline-flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin-top: 30px;
+}
+
+#flip-moved-social-icons .social-icon li {
+  margin-right: 10px;
+}
+
+#flip-moved-social-icons .social-icon li:last-of-type {
+  margin-right: 0;
+}
+
+#flip-moved-social-icons .social-icon li:hover {
+  transform: scale(1.2)
+}
+
+#flip-moved-social-icons a{
+  color: #AAAAAA;
+}
+
+#flip-moved-social-icons a:hover{
+  color: #0095eb;
+}
+
+
+
+
+
+
+
+
+
+/* FOR STUDENT LIST IN RESEARCH */
+/*https://stackoverflow.com/questions/34667466/how-to-center-this-horizontal-list-of-images*/
+/*better: https://stackoverflow.com/questions/19645931/inline-images-with-captions-centered-under-each*/
+.ul-students{
+  font-family: 'Raleway', sans-serif;
+  color: #AAAAAA;
+}
+
+.ul-students:after {
+  content: attr(title);
+  display: block;
+  text-align: center;
+}
+
+.ul-students ul {
+  text-align: center;
+  padding: 0;
+}
+
+.ul-students li {
+  width: 25%;
+  display: inline-block;
+  vertical-align: bottom;
+  font-size: .75rem;
+}
+
+.ul-students li img {
+  max-width: 80%;
+  height: auto;
+}
+
+/* STUDENT photos on index.html */
+.studentpic{
+  border-radius: 10px;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 100%;
+}
+
+
+
+
+
+
+
+
+/* NAVBAR coloring */
+
+.navbar-default{
+    background-color:rgba(0, 0, 0, 0.75);
+}
+
+.navbar-default .navbar-brand {
+  color: white;
+}
+
+.navbar-default .navbar-nav li a{
+    color: white;
+}
+
+.navbar-default .navbar-nav li a:hover{
+    background-color: #333333;
+}

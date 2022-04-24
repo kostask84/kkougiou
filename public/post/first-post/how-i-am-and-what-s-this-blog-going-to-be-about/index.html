@@ -1,0 +1,923 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 3.3.0">
+  <meta name="generator" content="Hugo 0.53" />
+  <meta name="author" content="Kostas Kougioumoutzis">
+
+  
+  
+  
+  
+    
+  
+  <meta name="description" content="In this blog I am going to share my thoughts on some papers that I find interesting (and hopefully you too), several how-to’s regarding several types of analysis in R and maybe photos from all my field-trips!
+But first of all, let me introduce myself1:
+General InfoI was born and raised in Athens (Figure 1) in the early, glorious 80s, but I come from the land of plenty.">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://www.kkougiou.com/post/first-post/how-i-am-and-what-s-this-blog-going-to-be-about/">
+
+  
+
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+  
+  <meta name="theme-color" content="#4caf50">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha256-eSi1q2PG6J7g7ib17yAaWMcrr5GrtohYChqibrV7PBE=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.0/css/all.css" integrity="sha384-aOkxzJ5uQz7WBObEZcHvV5JvRW3TUc2rNPA7pe3AwnsUohiw1Vj2Rgx2KSOkF5+h" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.css" integrity="sha256-ygkqlh3CYSUri3LhQxzdcm0n1EQvH2Y+U5S2idbLtxs=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/styles/github.min.css" crossorigin="anonymous">
+      
+    
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.css" integrity="sha512-M2wvCLH6DSRazYeZRIm1JnYyh22purTM+FDB5CsyxtQJYeKq83arPe5wgbNmcFXGqiSH2XR8dT/fJISVA1r/zQ==" crossorigin="anonymous">
+    
+
+    
+
+  
+
+  
+  
+  <link rel="stylesheet" href="//fonts.googleapis.com/css?family=Playfair+Display:400,700|Fauna+One">
+  
+
+  <link rel="stylesheet" href="/styles.css">
+  
+  <link rel="stylesheet" href="/css/static/css/flip.css">
+  
+  <link rel="stylesheet" href="/css/css/font-awesome.min.css">
+  
+
+  
+  
+    <script>
+      window.ga=window.ga||function(){(ga.q=ga.q||[]).push(arguments)};ga.l=+new Date;
+      ga('create', 'UA-132033526-1', 'auto');
+      
+      ga('require', 'eventTracker');
+      ga('require', 'outboundLinkTracker');
+      ga('require', 'urlChangeTracker');
+      ga('send', 'pageview');
+    </script>
+    <script async src="//www.google-analytics.com/analytics.js"></script>
+    
+    <script async src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js" integrity="sha512-HUmooslVKj4m6OBu0OgzjXXr+QuFYy/k7eLI5jdeEy/F4RSgMn6XRWRGkFi5IFaFgy7uFTkegp3Z0XnJf3Jq+g==" crossorigin="anonymous"></script>
+    
+  
+  
+
+  
+  <link rel="alternate" href="https://www.kkougiou.com/index.xml" type="application/rss+xml" title="Kostas Kougioumoutzis">
+  <link rel="feed" href="https://www.kkougiou.com/index.xml" type="application/rss+xml" title="Kostas Kougioumoutzis">
+  
+
+  <link rel="manifest" href="/site.webmanifest">
+  <link rel="icon" type="image/png" href="/img/icon.png">
+  <link rel="apple-touch-icon" type="image/png" href="/img/icon-192.png">
+
+  <link rel="canonical" href="https://www.kkougiou.com/post/first-post/how-i-am-and-what-s-this-blog-going-to-be-about/">
+
+  
+  
+  
+  
+    
+  
+  <meta property="twitter:card" content="summary_large_image">
+  
+  <meta property="twitter:site" content="@konkougioumou">
+  <meta property="twitter:creator" content="@konkougioumou">
+  
+  <meta property="og:site_name" content="Kostas Kougioumoutzis">
+  <meta property="og:url" content="https://www.kkougiou.com/post/first-post/how-i-am-and-what-s-this-blog-going-to-be-about/">
+  <meta property="og:title" content="A small intro | Kostas Kougioumoutzis">
+  <meta property="og:description" content="In this blog I am going to share my thoughts on some papers that I find interesting (and hopefully you too), several how-to’s regarding several types of analysis in R and maybe photos from all my field-trips!
+But first of all, let me introduce myself1:
+General InfoI was born and raised in Athens (Figure 1) in the early, glorious 80s, but I come from the land of plenty."><meta property="og:image" content="https://www.kkougiou.com/img/FullSizeRender.jpg">
+  <meta property="og:locale" content="en-us">
+  
+  <meta property="article:published_time" content="2019-01-12T00:00:00&#43;00:00">
+  
+  <meta property="article:modified_time" content="2019-01-12T00:00:00&#43;00:00">
+  
+
+  
+
+  <script src="https://use.fontawesome.com/dc8f5495c2.js"></script>
+
+
+  <title>A small intro | Kostas Kougioumoutzis</title>
+
+</head>
+<body id="top" data-spy="scroll" data-target="#TableOfContents" data-offset="71" >
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" role="textbox" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+<nav class="navbar navbar-light fixed-top navbar-expand-lg py-0" id="navbar-main">
+  <div class="container">
+
+    
+      <a class="navbar-brand" href="/">Kostas Kougioumoutzis</a>
+      
+      <button type="button" class="navbar-toggler" data-toggle="collapse"
+              data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+        <span><i class="fas fa-bars"></i></span>
+      </button>
+      
+
+    
+    <div class="collapse navbar-collapse" id="navbar">
+
+      
+      
+      <ul class="navbar-nav ml-auto">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#about">
+            
+            <span>Home</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#publications">
+            
+            <span>Publications</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#talks">
+            
+            <span>Talks</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#projects">
+            
+            <span>Projects</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#posts">
+            
+            <span>Posts</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link" href="/#contact">
+            
+            <span>Contact</span>
+            
+          </a>
+        </li>
+
+        
+        
+
+        
+        <li class="nav-item dropdown">
+          <a href="#" class="nav-link dropdown-toggle" data-toggle="dropdown" aria-haspopup="true">
+            
+            <span>Teaching</span>
+            
+            <span class="caret"></span>
+          </a>
+          <ul class="dropdown-menu">
+            
+            <li class="dropdown-item my-0 py-0 mx-0 px-0">
+              <a href="/#teaching">
+                
+                <span></span>
+                
+              </a>
+            </li>
+            
+          </ul>
+        </li>
+
+        
+        
+
+      
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+        </li>
+        
+
+        
+
+        
+        <li class="nav-item">
+          <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+        </li>
+        
+
+      </ul>
+
+    </div>
+  </div>
+</nav>
+
+
+<article class="article" itemscope itemtype="http://schema.org/Article">
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+<div class="article-container pt-3">
+  <h1 itemprop="name">A small intro</h1>
+
+  
+
+  
+    
+
+<div class="article-metadata">
+
+  
+  
+  <span itemscope itemprop="author" itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Kostas Kougioumoutzis">
+  </span>
+  
+
+  <span class="article-date">
+    
+    <meta content="2019-01-12 00:00:00 &#43;0000 UTC" itemprop="datePublished">
+    <time datetime="2019-01-12 00:00:00 &#43;0000 UTC" itemprop="dateModified">
+      Jan 12, 2019
+    </time>
+  </span>
+  <span itemscope itemprop="publisher" itemtype="http://schema.org/Person">
+    <meta itemprop="name" content="Kostas Kougioumoutzis">
+  </span>
+
+  
+  <span class="middot-divider"></span>
+  <span class="article-reading-time">
+    5 min read
+  </span>
+  
+
+  
+  
+  <span class="middot-divider"></span>
+  <a href="/post/first-post/how-i-am-and-what-s-this-blog-going-to-be-about/#disqus_thread"></a>
+  
+
+  
+  
+  
+  <span class="middot-divider"></span>
+  <span class="article-categories">
+    <i class="fas fa-folder"></i>
+    
+    <a href="/categories/general/">General</a>
+    
+  </span>
+  
+  
+
+  
+  
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    <li>
+      <a class="twitter"
+         href="https://twitter.com/intent/tweet?text=A%20small%20intro&amp;url=https%3a%2f%2fwww.kkougiou.com%2fpost%2ffirst-post%2fhow-i-am-and-what-s-this-blog-going-to-be-about%2f"
+         target="_blank" rel="noopener">
+        <i class="fab fa-twitter"></i>
+      </a>
+    </li>
+    <li>
+      <a class="facebook"
+         href="https://www.facebook.com/sharer.php?u=https%3a%2f%2fwww.kkougiou.com%2fpost%2ffirst-post%2fhow-i-am-and-what-s-this-blog-going-to-be-about%2f"
+         target="_blank" rel="noopener">
+        <i class="fab fa-facebook-f"></i>
+      </a>
+    </li>
+    <li>
+      <a class="linkedin"
+         href="https://www.linkedin.com/shareArticle?mini=true&amp;url=https%3a%2f%2fwww.kkougiou.com%2fpost%2ffirst-post%2fhow-i-am-and-what-s-this-blog-going-to-be-about%2f&amp;title=A%20small%20intro"
+         target="_blank" rel="noopener">
+        <i class="fab fa-linkedin-in"></i>
+      </a>
+    </li>
+    <li>
+      <a class="weibo"
+         href="http://service.weibo.com/share/share.php?url=https%3a%2f%2fwww.kkougiou.com%2fpost%2ffirst-post%2fhow-i-am-and-what-s-this-blog-going-to-be-about%2f&amp;title=A%20small%20intro"
+         target="_blank" rel="noopener">
+        <i class="fab fa-weibo"></i>
+      </a>
+    </li>
+    <li>
+      <a class="email"
+         href="mailto:?subject=A%20small%20intro&amp;body=https%3a%2f%2fwww.kkougiou.com%2fpost%2ffirst-post%2fhow-i-am-and-what-s-this-blog-going-to-be-about%2f">
+        <i class="fas fa-envelope"></i>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+  
+
+</div>
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+</div>
+
+
+
+  <div class="article-container">
+
+    <div class="article-style" itemprop="articleBody">
+      
+
+
+<p>In this blog I am going to share my thoughts on some papers that I find interesting (and hopefully you too), several how-to’s regarding several types of analysis in R and maybe photos from all my field-trips!</p>
+<p>But first of all, let me introduce myself<a href="#fn1" class="footnoteRef" id="fnref1"><sup>1</sup></a>:</p>
+<div id="general-info" class="section level2">
+<h2>General Info</h2>
+<p>I was born and raised in Athens (Figure <a href="#fig:Athens">1</a>) in the early, glorious 80s, but I come <a href="https://www.youtube.com/watch?v=XfR9iY5y94s">from the land of plenty</a>.</p>
+<div class="figure" style="text-align: center"><span id="fig:Athens"></span>
+<img src="/img/Athens.jpg" alt="Athens view from Acropolis (Photo by Arthur Yeti on Unsplash)"  />
+<p class="caption">
+Figure 1: Athens view from Acropolis (Photo by Arthur Yeti on Unsplash)
+</p>
+</div>
+<p>No, no, just joking: my ancestral home is Crete (Figure <a href="#fig:Crete">2</a>), the hottest biodiversity hotspot in the Mediterranean Basin <span class="citation">(Médail <a href="#ref-medail2017specific">2017</a>)</span>, since it hosts nearly 400 Greek endemics and ca. 180 Single Island Endemics <span class="citation">(Dimopoulos et al. <a href="#ref-dimopoulos2013vascular">2013</a>; <a href="#ref-dimopoulos2016vascular">2016</a>; Strid <a href="#ref-strid2016atlas">2016</a>)</span>.</p>
+<div class="figure" style="text-align: center"><span id="fig:Crete"></span>
+<img src="/img/Crete.jpg" alt="Aerial view of Crete (By ISS Expedition 28 crew - NASA Earth Observatory, Public Domain, https://commons.wikimedia.org/w/index.php?curid=16108310)"  />
+<p class="caption">
+Figure 2: Aerial view of Crete (By ISS Expedition 28 crew - NASA Earth Observatory, Public Domain, <a href="https://commons.wikimedia.org/w/index.php?curid=16108310" class="uri">https://commons.wikimedia.org/w/index.php?curid=16108310</a>)
+</p>
+</div>
+<p>As a kid, I spent all my Easter holidays and summers there, at my grandma’s small and typical Mediterranean village, having fun with my cousins, running around and wreaking havoc. What I remember rather fondly, is my maternal grandpa, who - to be honest - was actually the one that made me wonder about nature and plants, more specifically.</p>
+</div>
+<div id="dr.strangeplant-or-how-i-stopped-worrying-and-learned-to-love-plants" class="section level2">
+<h2>Dr. StrangePlant or How I stopped worrying and learned to love plants</h2>
+<p>My grandpa was a wonderful man and an archetypical member of the <a href="https://www.thebalancecareers.com/workplace-characteristics-silent-generation-2164692">Silent Generation</a>. Every day, even in his late 70s, he would have a brief siesta and wake up after an hour or two and head to his fields and crops. Me joining him was inevitable and thrilling: in one of those hikes, I was introduced to the world of plants and how they (all!) can be benificial to us. As we were walking in the olive groves, my grandpa showed me one of the plants he and his seven sisters were eating during the <a href="https://en.wikipedia.org/wiki/Axis_occupation_of_Greece">German Occupation</a>. It didn’t seem like much, but it kept them alive. And boy, oh boy what a plant that is: it’s everywhere<a href="#fn2" class="footnoteRef" id="fnref2"><sup>2</sup></a> in Crete, it’s edible, it’s called <em>Petromarulo</em> (from <em>Petra</em> - meaning rock - and <em>Marouli</em> - meaning lettuce) and it’s one of the seven <strong>endemic genera</strong> of Greece (Figure <a href="#fig:Petromarula">3</a>)!</p>
+<div class="figure" style="text-align: center"><span id="fig:Petromarula"></span>
+<img src="/img/Petromarula.jpg" alt="*Petromarula pinnata* (L.) A.DC., a monotypic, endemic plant genus of Greece (Photo by Amadej Trnkoczy in Flickr)"  />
+<p class="caption">
+Figure 3: <em>Petromarula pinnata</em> (L.) A.DC., a monotypic, endemic plant genus of Greece (Photo by Amadej Trnkoczy in Flickr)
+</p>
+</div>
+<p>A couple of years later, I got accepted in the <a href="http://www.biology.upatras.gr/">Biology Department</a> of the University of Patras. Little did I know then, but it would become my home for the years to come. Several great people taught there and I was lucky enough to be at a place that Botany was thriving. In my first year as a student there, I met a person that would shape me to the academic I am now and to whom I owe everything: <a href="https://www.researchgate.net/profile/Argyro_Tiniakou">Ass. Prof. Argyro Tiniakou</a>. Surely <a href="https://www.pelopevents.gr/?section=2664&amp;language=el_GR&amp;itemid1494=3063&amp;detail1494=1">Prof. Grigoris Iatrou</a> with his larger-than-life persona and great teaching skills sparkled my interest to study plant systematics, after attending his course in my second year and definitely <a href="https://www.linkedin.com/in/roula-trigou-29425621/?originalSubdomain=gr">Roula Trigou</a>, a M.Sc. student at the time, helped realize how fun it can be trying to identify the plant specimens that lay in front of you<a href="#fn3" class="footnoteRef" id="fnref3"><sup>3</sup></a>, but it was Ass. Prof. Argyro Tiniakou, that taught me how to think, write, speak scientifically, ask the right questions, push myself to the limit, broaden my horizons and properly collect, identify and store plant specimens.</p>
+</div>
+<div id="mumble-in-the-jungle-or-what-i-like-talking-about" class="section level2">
+<h2>Mumble in the jungle or what I like talking about</h2>
+<p>If you’ve made it this far, kudos to you! You are extremely patient and a great listener - rare commodities these days. I love doing many things, most of which are pretty lonely: reading<a href="#fn4" class="footnoteRef" id="fnref4"><sup>4</sup></a>, hiking, going to the gym<a href="#fn5" class="footnoteRef" id="fnref5"><sup>5</sup></a>, binge-watching series<a href="#fn6" class="footnoteRef" id="fnref6"><sup>6</sup></a>, some more reading<a href="#fn7" class="footnoteRef" id="fnref7"><sup>7</sup></a>, but what I <strong>really</strong> like doing is teaching and sharing what I know/learned over the years. So, I will try to write (semi-)regularly some posts dealing with <a href="https://www.r-project.org/">R</a>, starting from scratch and then possibly progressing to more advanced topics and analyses. Now, that I think about it, I may as well write about plant evolution and systematics, since only once did I have the chance to talk and teach (on an academic level) about my favourite organisms on the planet<a href="#fn8" class="footnoteRef" id="fnref8"><sup>8</sup></a>.</p>
+<p>So there you have it guys!</p>
+<div id="references" class="section level3 unnumbered">
+<h3>References</h3>
+<div id="refs" class="references">
+<div id="ref-dimopoulos2013vascular">
+<p>Dimopoulos, Panayotis, Thomas Raus, Erwin Bergmeier, Theophanis Constantinidis, Gregoris Iatrou, Stella Kokkini, Arne Strid, and Dimitrios Tzanoudakis. 2013. “Vascular Plants of Greece: An Annotated Checklist.” <em>Englera</em>, no. 31. Botanischer Garten und Botanisches Museum, Berlin-Dahlem: 1–372.</p>
+</div>
+<div id="ref-dimopoulos2016vascular">
+<p>———. 2016. “Vascular Plants of Greece: An Annotated Checklist. Supplement.” <em>Willdenowia</em> 46 (3). BioOne: 301–47.</p>
+</div>
+<div id="ref-medail2017specific">
+<p>Médail, Frédéric. 2017. “The Specific Vulnerability of Plant Biodiversity and Vegetation on Mediterranean Islands in the Face of Global Change.” <em>Regional Environmental Change</em> 17 (6). Springer: 1775–90.</p>
+</div>
+<div id="ref-strid2016atlas">
+<p>Strid, Arne. 2016. <em>Atlas of the Aegean Flora: Text &amp; Plates</em>. Botanic Garden; Botanical Museum Berlin, Freie Universität Berlin.</p>
+</div>
+</div>
+</div>
+</div>
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn1"><p>Usually, I am not so extrovert<a href="#fnref1">↩</a></p></li>
+<li id="fn2"><p>Like literally, everywhere: it grows on medieval fortresses, house walls, cultivated fields, calcareous cliffs, near beaches<a href="#fnref2">↩</a></p></li>
+<li id="fn3"><p>Yes, I know, my idea of fun can be perceived as somewhat bizarre<a href="#fnref3">↩</a></p></li>
+<li id="fn4"><p>Papers, historical, sci-fi and sports books, comics, newspapers, anything I get my hands on actually<a href="#fnref4">↩</a></p></li>
+<li id="fn5"><p>A lot<a href="#fnref5">↩</a></p></li>
+<li id="fn6"><p>Especially in holidays<a href="#fnref6">↩</a></p></li>
+<li id="fn7"><p>Mainly regarding R<a href="#fnref7">↩</a></p></li>
+<li id="fn8"><p>Well, except cats. Cats rule.<a href="#fnref8">↩</a></p></li>
+</ol>
+</div>
+
+    </div>
+
+    
+
+
+
+
+    
+
+
+
+
+
+
+<div class="media author-card" itemscope itemtype="http://schema.org/Person">
+  
+  <img class="portrait mr-3" src="/img/New_pic.jpg" itemprop="image" alt="Avatar">
+  
+  <div class="media-body">
+    <h5 class="card-title" itemprop="name"><a href="/">Kostas Kougioumoutzis</a></h5>
+    <h6 class="card-subtitle">Post-Doctoral Researcher</h6>
+    
+    <ul class="network-icon" aria-hidden="true">
+      
+      
+      
+      
+      
+      
+      
+      
+      <li>
+        <a itemprop="sameAs" href="mailto:kkougiou@biol.uoa.gr" >
+          <i class="fa fa-paper-plane"></i>
+        </a>
+      </li>
+      
+      
+      
+      
+        
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a itemprop="sameAs" href="//twitter.com/konkougioumou" >
+          <i class="fab fa-jedi-order"></i>
+        </a>
+      </li>
+      
+      
+      
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a itemprop="sameAs" href="https://scholar.google.gr/citations?user=CceadYwAAAAJ&amp;hl=en" target="_blank" rel="noopener">
+          <i class="ai ai-google-scholar"></i>
+        </a>
+      </li>
+      
+      
+      
+      
+        
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a itemprop="sameAs" href="//github.com/kostask84" >
+          <i class="fab fa-phoenix-squadron"></i>
+        </a>
+      </li>
+      
+      
+      
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a itemprop="sameAs" href="https://orcid.org/0000-0002-6938-3025" target="_blank" rel="noopener">
+          <i class="ai ai-orcid"></i>
+        </a>
+      </li>
+      
+      
+      
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a itemprop="sameAs" href="https://www.researchgate.net/profile/Konstantinos_Kougioumoutzis" target="_blank" rel="noopener">
+          <i class="ai ai-researchgate"></i>
+        </a>
+      </li>
+      
+      
+      
+      
+      
+      
+      
+      
+        
+      
+      <li>
+        <a itemprop="sameAs" href="/files/cv.pdf" >
+          <i class="ai ai-cv"></i>
+        </a>
+      </li>
+      
+    </ul>
+  </div>
+</div>
+
+
+
+
+    
+    
+
+    
+
+    
+<section id="comments">
+  <div id="disqus_thread"></div>
+<script type="application/javascript">
+    var disqus_config = function () {
+    
+    
+    
+    };
+    (function() {
+        if (["localhost", "127.0.0.1"].indexOf(window.location.hostname) != -1) {
+            document.getElementById('disqus_thread').innerHTML = 'Disqus comments not available by default when the website is previewed locally.';
+            return;
+        }
+        var d = document, s = d.createElement('script'); s.async = true;
+        s.src = '//' + "kostas_k84" + '.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+<a href="https://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
+</section>
+
+
+
+  </div>
+</article>
+
+<footer class="site-footer">
+  
+  <div id="botbar1"> </div>
+  <div style="position: relative; width: 0; height: 0; z-index: 200;">
+    <div id="feynmanfoot" style="background-image:url('https://www.kkougiou.com//img/layout/2.jpg');"></div>
+  </div>
+  <div style="height: 20px">
+    
+  </div>
+  
+  <div class="container">
+
+
+      <div class="row" id="footer-columns">
+        <div class="col-sm-4" id="footer-col-1">
+          <img src="https://www.kkougiou.com/img/logo/ekpa.jpg">
+        </div>
+        <div class="col-sm-4" id="footer-col-1">
+          
+          All opinions expressed here are my own and do not necessarily represent those of any other agencies or groups.
+        </div>
+        <div class="col-sm-4" id="footer-col-1">
+          Powered by the
+          <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a> engine
+          
+          <br>Adapted from <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic</a>.
+          
+          <br>&copy Kostas Kougioumoutzis 2018
+        </div>
+      </div>
+
+
+
+
+
+
+  </div> 
+</footer>
+
+
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close btn-large" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Cite</h4>
+      </div>
+      <div>
+        <pre><code class="modal-body tex"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-primary btn-outline js-copy-cite" href="#" target="_blank">
+          <i class="fa fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-primary btn-outline js-download-cite" href="#" target="_blank">
+          <i class="fa fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div> 
+    
+
+    
+    
+    
+    <script src="/js/mathjax-config.js"></script>
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha512-+NqPlbbtM1QqiK8ZAo4Yrj2c4lNQoGv8P79DPtKzj++l5jnN39rHA/xsqn8zE9l0uSoxaCdrOgFs6yjyfbBxSg==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.3/imagesloaded.pkgd.min.js" integrity="sha512-umsR78NN0D23AzgoZ11K7raBD+R6hqKojyBZs1w8WvYlsI+QuKRGBx3LFCwhatzBunCjDuJpDHwxD13sLMbpRA==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha256-VsEqElsCHSGmnmHXGQzvoWjWwoznFSZc6hs7ARLRacQ=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.4/isotope.pkgd.min.js" integrity="sha512-VDBOIlDbuC4VWxGJNmuFRQ0Li0SKkDpmGyuhAG5LTDLd/dJ/S0WMVxriR2Y+CyPL5gzjpN4f/6iqWVBJlht0tQ==" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.2.5/jquery.fancybox.min.js" integrity="sha256-X5PoE3KU5l+JcX+w09p/wHl9AzK333C4hJ2I9S5mD4M=" crossorigin="anonymous"></script>
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js" integrity="sha256-/BfiIkHlHoVihZdc6TFuj7MmJ0TWcWsMXkeDFwhi0zw=" crossorigin="anonymous"></script>
+        
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/r.min.js"></script>
+        
+        <script src="//cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/languages/yaml.min.js"></script>
+        
+      
+
+      
+      
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.4/MathJax.js?config=TeX-AMS_CHTML-full" integrity="sha256-GhM+5JHb6QUzOQPXSJLEWP7R73CbkisjzK5Eyij4U9w=" crossorigin="anonymous" async></script>
+      
+    
+
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.2.0/leaflet.js" integrity="sha512-lInM/apFSqyy1o6s89K4iQUKg6ppXEgsVxT35HbzUupEVRh2Eu9Wdl4tHj7dZO0s1uvplcYGmt3498TtHq+log==" crossorigin="anonymous"></script>
+    
+
+    
+    
+    
+    <script id="dsq-count-scr" src="//kostas_k84.disqus.com/count.js" async></script>
+    
+
+    
+    
+    <script>hljs.initHighlightingOnLoad();</script>
+    
+
+    
+    
+    <script>
+      const search_index_filename = "/index.json";
+      const i18n = {
+        'placeholder': "Search...",
+        'results': "results found",
+        'no_results': "No results found"
+      };
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    <script src="/js/academic.min.70f0041f5a24c6a675ac218c98d7ef71.js"></script>
+
+    
+
+  </body>
+</html>
+

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Biodiversity on Kostas Kougioumoutzis</title>
+    <link>https://www.kkougiou.com/tags/biodiversity/</link>
+    <description>Recent content in Biodiversity on Kostas Kougioumoutzis</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2020 Kostas Kougioumoutzis</copyright>
+    <lastBuildDate>Sat, 29 Feb 2020 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.kkougiou.com/tags/biodiversity/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Population genetic variability and distribution of the endangered Greek endemic Cicer graecum under climate change scenarios</title>
+      <link>https://www.kkougiou.com/publication/2020-29-02_cicer/</link>
+      <pubDate>Sat, 29 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kkougiou.com/publication/2020-29-02_cicer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Taxonomic and phylogenetic diversity patterns in the Northern Sporades islets complex (West Aegean, Greece)</title>
+      <link>https://www.kkougiou.com/publication/2020-21-02_sporades/</link>
+      <pubDate>Fri, 21 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kkougiou.com/publication/2020-21-02_sporades/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Aegean biodiversity</title>
+      <link>https://www.kkougiou.com/project/aegean-diversity/</link>
+      <pubDate>Wed, 09 Jan 2019 00:00:00 +0200</pubDate>
+      
+      <guid>https://www.kkougiou.com/project/aegean-diversity/</guid>
+      <description>Why focus on continental archipelagos? Although oceanic islands are less numerous compared to the non-oceanic, they dominate ecological and evolutionary theory, compared to continental island systems, which have received much less attention than oceanic islands and archipelagos (e.g., Whittaker et al., 2017). Thus, continental archipelagos, such as the Aegean, provide exceptional opportunities for the refinement and further development of island theory, especially those parts mainly based on oceanic islands.</description>
+    </item>
+    
+  </channel>
+</rss>

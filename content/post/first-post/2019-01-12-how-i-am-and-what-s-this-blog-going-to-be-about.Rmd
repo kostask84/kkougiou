@@ -1,0 +1,58 @@
+---
+title: A small intro
+author: Kostas Kougioumoutzis
+date: '2019-01-12'
+slug: how-i-am-and-what-s-this-blog-going-to-be-about
+categories:
+  - General
+tags: []
+link-citations: true
+bibliography: [first-post.bib]
+image:
+  caption: ''
+  focal_point: ''
+---
+
+```{r setup, include = FALSE}
+library(kfigr)
+library(DT)
+library(plotly)
+knitr::knit_hooks$set(anchor  =  hook_anchor)
+knitr::opts_chunk$set(echo  =  TRUE, eval  =  FALSE, cache  =  T, warning  =  FALSE, error  =  FALSE, message  =  FALSE, tidy  =  TRUE, fig.align  =  "center", fig.width  =  10, fig.height  =  10, kfigr.prefix  =  TRUE, kfigr.link  =  TRUE, R.options  =  (digits  =  2))
+```
+  
+In this blog I am going to share my thoughts on some papers that I find interesting (and hopefully you too), several how-to's regarding several types of analysis in R and maybe photos from all my field-trips!  
+  
+But first of all, let me introduce myself^[Usually, I am not so extrovert]:  
+  
+## General Info  
+I was born and raised in Athens (Figure \@ref(fig:Athens)) in the early, glorious 80s, but I come [from the land of plenty](https://www.youtube.com/watch?v=XfR9iY5y94s).  
+
+  
+```{r Athens, fig.cap='Athens view from Acropolis (Photo by Arthur Yeti on Unsplash)', echo = F, eval = T}
+knitr::include_graphics('/img/Athens.jpg')
+```
+  
+No, no, just joking: my ancestral home is Crete (Figure \@ref(fig:Crete)), the hottest biodiversity hotspot in the Mediterranean Basin [@medail2017specific], since it hosts nearly 400 Greek endemics and ca. 180 Single Island Endemics [@dimopoulos2013vascular; -@dimopoulos2016vascular; @strid2016atlas].  
+  
+```{r Crete, fig.cap='Aerial view of Crete (By ISS Expedition 28 crew - NASA Earth Observatory, Public Domain, https://commons.wikimedia.org/w/index.php?curid=16108310)', echo = F, eval = T}
+knitr::include_graphics('/img/Crete.jpg')
+```
+  
+As a kid, I spent all my Easter holidays and summers there, at my grandma's small and typical Mediterranean village, having fun with my cousins, running around and wreaking havoc. What I remember rather fondly, is my maternal grandpa, who - to be honest - was actually the one that made me wonder about nature and plants, more specifically. 
+  
+## Dr. StrangePlant or How I stopped worrying and learned to love plants
+My grandpa was a wonderful man and an archetypical member of the [Silent Generation](https://www.thebalancecareers.com/workplace-characteristics-silent-generation-2164692). Every day, even in his late 70s, he would have a brief siesta and wake up after an hour or two and head to his fields and crops. Me joining him was inevitable and thrilling: in one of those hikes, I was introduced to the world of plants and how they (all!) can be benificial to us. As we were walking in the olive groves, my grandpa showed me one of the plants he and his seven sisters were eating during the [German Occupation](https://en.wikipedia.org/wiki/Axis_occupation_of_Greece). It didn't seem like much, but it kept them alive. And boy, oh boy what a plant that is: it's everywhere^[Like literally, everywhere: it grows on medieval fortresses, house walls, cultivated fields, calcareous cliffs, near beaches] in Crete, it's edible, it's called *Petromarulo* (from *Petra* - meaning rock - and *Marouli* - meaning lettuce) and it's one of the seven **endemic genera** of Greece (Figure \@ref(fig:Petromarula))!  
+  
+```{r Petromarula, fig.cap='*Petromarula pinnata* (L.) A.DC., a monotypic, endemic plant genus of Greece (Photo by Amadej Trnkoczy in Flickr)', echo = F, eval = T}
+knitr::include_graphics('/img/Petromarula.jpg')
+```
+  
+A couple of years later, I got accepted in the [Biology Department](http://www.biology.upatras.gr/) of the University of Patras. Little did I know then, but it would become my home for the years to come. Several great people taught there and I was lucky enough to be at a place that Botany was thriving. In my first year as a student there, I met a person that would shape me to the academic I am now and to whom I owe everything: [Ass. Prof. Argyro Tiniakou](https://www.researchgate.net/profile/Argyro_Tiniakou). Surely [Prof. Grigoris Iatrou](https://www.pelopevents.gr/?section=2664&language=el_GR&itemid1494=3063&detail1494=1) with his larger-than-life persona and great teaching skills sparkled my interest to study plant systematics, after attending his course in my second year and definitely [Roula Trigou](https://www.linkedin.com/in/roula-trigou-29425621/?originalSubdomain=gr), a M.Sc. student at the time, helped realize how fun it can be trying to identify the plant specimens that lay in front of you^[Yes, I know, my idea of fun can be perceived as somewhat bizarre], but it was Ass. Prof. Argyro Tiniakou, that taught me how to think, write, speak scientifically, ask the right questions, push myself to the limit, broaden my horizons and properly collect, identify and store plant specimens.  
+  
+## Mumble in the jungle or what I like talking about 
+If you've made it this far, kudos to you! You are extremely patient and a great listener - rare commodities these days. I love doing many things, most of which are pretty lonely: reading^[Papers, historical, sci-fi and sports books, comics, newspapers, anything I get my hands on actually], hiking, going to the gym^[A lot], binge-watching series^[Especially in holidays], some more reading^[Mainly regarding R], but what I **really** like doing is teaching and sharing what I know/learned over the years. So, I will try to write (semi-)regularly some posts dealing with [R](https://www.r-project.org/), starting from scratch and then possibly progressing to more advanced topics and analyses. Now, that I think about it, I may as well write about plant evolution and systematics, since only once did I have the chance to talk and teach (on an academic level) about my favourite organisms on the planet^[Well, except cats. Cats rule.]. 
+    
+So there you have it guys!  
+  
+### References  

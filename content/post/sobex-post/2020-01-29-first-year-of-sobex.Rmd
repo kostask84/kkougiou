@@ -1,0 +1,114 @@
+---
+title: First year of SoBEx
+author: Kostas Kougioumoutzis
+date: '2020-01-29'
+slug: first-year-of-sobex
+categories:
+  - General
+tags:
+  - IUCN
+  - Critically Endangered
+  - Field-work
+  - Genetic diversity
+  - GSRT
+  - HFRI
+  - ELIDEK
+  - NKUA
+  - UAMECO
+link-citations: true
+bibliography: [sobex-post.bib]
+image:
+  caption: ''
+  focal_point: ''
+---
+  
+<style>
+body {
+text-align: justify}
+</style>     
+    
+```{r setup, include = FALSE}
+library(kfigr)
+library(DT)
+library(plotly)
+knitr::knit_hooks$set(anchor  =  hook_anchor)
+knitr::opts_chunk$set(echo  =  TRUE, eval  =  FALSE, cache  =  T, warning  =  FALSE, error  =  FALSE, message  =  FALSE, tidy  =  TRUE, fig.align  =  "center", fig.width  =  10, fig.height  =  10, kfigr.prefix  =  TRUE, kfigr.link  =  TRUE, R.options  =  (digits  =  2))
+```
+  
+## Overview  
+During the past year, the [SoBEx](https://www.kkougiou.com/project/internal-project/) team, together with Yannis Alexiou, Gabriela Kelaidi and Chrysa Papadaki, three post-graduate students in [UAMECO lab](https://sites.google.com/site/uameco/home) has been conducting field work in several Aegean islands (Figure \@ref(fig:Aegean)), mainland Greek mountains (Figure \@ref(fig:mountains)) and lakes, so as to collect population and environmental data for the Critically Endangered Greek endemic animal and plant species (according to the IUCN).   
+  
+```{r Aegean, fig.cap='SoBEx team on Kythira, near the Polygala helenae site', echo = F, eval = T}
+knitr::include_graphics('/img/Kythira.jpg', error = FALSE)
+```
+  
+```{r mountains, fig.cap='At Mt. Kingilos on W Crete, in search of Bupleurum kakiskalae', echo = F, eval = T}
+knitr::include_graphics('/img/Kingilos.jpg', error = FALSE)
+```    
+  
+## What has been done  
+So far we have gathered all the relevant data for more than 30 species (13 plants and 18 animals) and we have conducted molecular/genetic analyses for these taxa. We have also run several macroecological analyses so as to estimate the effects of climate change on these Critically Endangered species, as well as to estimate the percent overlap of these species' distribution range with the NATURA 2000 protected areas network (PAs - gap analysis). We ran correlative Species Distribution Models in an ensemble framework [@araujo2019standards], using Breiner's et al. [-@breiner2015overcoming; -@breiner2017including; -@breiner2018optimizing] scheme, since we were dealing with very rare species.  
+  
+It seems that *Isoetes heldreichii*, a rare narrow endemic, has gone extinct. It was first described in 1886 from the wider Paleokastro area near Karditsa. It was the only *Isoetes* species in Greece occurring in exclusively freshwater habitats. This species has not been recorded for nearly 140 years. Its locus classicus has been destroyed so as to construct a dam [@troia2015conspectus].  
+  
+The population of four plant species, namely *Aethionema retsina* (Figure \@ref(fig:retsina)), *Anthemis glaberrima*, *Convolvulus argyrothamnos*, and *Horstrissea dolinicola* (Figure \@ref(fig:doli)), show a decreasing population trend. 
+  
+```{r retsina, fig.cap = 'Aethionema retsina', echo = F, eval = T}
+knitr::include_graphics('/img/retsina.jpg', error = FALSE)
+```
+  
+```{r doli, fig.cap = 'Horstrissea dolinicola', echo = F, eval = T}
+knitr::include_graphics('/img/doli.jpg', error = FALSE)
+```
+    
+On the other hand, three plant species, namely *Allium iatrouinum*, *Bupleurum kakiskalae* and *Minuartia dirphya* (Figure \@ref(fig:dirphya)) show a weak increasing population trend.  
+  
+```{r dirphya, fig.cap = 'Minuartia dirphya', echo = F, eval = T}
+knitr::include_graphics('/img/dirphya.jpg', error = FALSE)
+```
+  
+      
+We report for the first time, precise population data for *Polygala helenae*and *Saponaria jagelii* (Figure \@ref(fig:sapo)). *Polygala helenae* and *Saponaria jagelii* comprise 382 and 1815 individuals, respectively. These values now constitute the Favourable Reference Values (FRVs) for the population size of these species. The FRVs for the Extent of Occurrence (EOO) and Area of Occupancy (AOO) for both of these species is 8 km^2^.   
+  
+
+```{r sapo, fig.cap = 'Saponaria jagelii', echo = F, eval = T}
+knitr::include_graphics('/img/sapo.jpg', error = FALSE)
+```
+   
+According to the SDM analyses, all of the species under study are projected to become extinct in the coming decades, under any Global Circulation Model (GCM), Representative Concentration Pathway (RCP) and climate database combination (for instance: Figure \@ref(fig:comb)). The median percentage loss was 100% across all species. Our models had sufficient predictive power (TSS $\geq 0.75$ - median TSS: 0.78). All models were found to outperform the null expectation at P $< 0.05$.    
+  
+```{r comb, fig.cap = 'Occurrence probability map of Saponaria jagelii for the present time-period', echo = F, eval = T}
+knitr::include_graphics('/img/comb.jpg', error = FALSE)
+```
+  
+  
+According to the gap analysis, the distribution range of the species under study varied from 0.001 km^2^ to 9756.2 km^2^. Two gastropods, namely *Lindbergia gittenbergeri* and *Tsoukatosia evauemgei*, occur exclusively outside any PA. Thirteen species (nine plants and four gastropods) on the other hand, occur exclusively in PAs. The mean percentage overlap is 48.1%, yet most species (ca. 60%) occur outside the Greek PAs for at least half of their distribution range (Figure \@ref(fig:gap)). The mean percentage overlap was highest in plants (67.6%), followed by molluscs (47.4%), arthropods (39.7%) and vertebrates (17.1%).  
+  
+```{r gap, fig.cap = 'Results of the gap analysis for the studied taxa', echo = F, eval = T}
+knitr::include_graphics('/img/gap.jpg', error = FALSE)
+```
+   
+You can find more information [here](/pdf/progress.pdf). The SoBEx team has also presented some of the first year's results in two [international](/pdf/OPTIMA.pdf) and one [national](/pdf/SoBEx.pdf) scientific congresses.  
+  
+This project has received funding from the [Hellenic Foundation for Research and Innovation (HFRI)](http://www.elidek.gr/en/homepage/) and the [General Secretariat for Research and Technology (GSRT)](http://www.gsrt.gr/central.aspx?sId=119I428I1089I323I488743), under grant agreement **No [2418]**.  
+    
+```{r hfri, echo = F, eval = T}
+knitr::include_graphics('/img/hfri.png', error = FALSE)
+```
+
+```{r gsrt, echo = F, eval = T}
+knitr::include_graphics('/img/gsrt.png', error = FALSE)
+```
+  
+## References  
+  
+  
+  
+
+
+
+
+  
+
+
+

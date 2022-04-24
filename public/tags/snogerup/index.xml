@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Snogerup on Kostas Kougioumoutzis</title>
+    <link>https://www.kkougiou.com/tags/snogerup/</link>
+    <description>Recent content in Snogerup on Kostas Kougioumoutzis</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2020 Kostas Kougioumoutzis</copyright>
+    <lastBuildDate>Wed, 09 Jan 2019 00:00:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://www.kkougiou.com/tags/snogerup/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Aegean biodiversity</title>
+      <link>https://www.kkougiou.com/project/aegean-diversity/</link>
+      <pubDate>Wed, 09 Jan 2019 00:00:00 +0200</pubDate>
+      
+      <guid>https://www.kkougiou.com/project/aegean-diversity/</guid>
+      <description>Why focus on continental archipelagos? Although oceanic islands are less numerous compared to the non-oceanic, they dominate ecological and evolutionary theory, compared to continental island systems, which have received much less attention than oceanic islands and archipelagos (e.g., Whittaker et al., 2017). Thus, continental archipelagos, such as the Aegean, provide exceptional opportunities for the refinement and further development of island theory, especially those parts mainly based on oceanic islands.</description>
+    </item>
+    
+    <item>
+      <title>Aegean biogeography</title>
+      <link>https://www.kkougiou.com/project/aegean-biogeography/</link>
+      <pubDate>Wed, 09 Jan 2019 00:00:00 +0200</pubDate>
+      
+      <guid>https://www.kkougiou.com/project/aegean-biogeography/</guid>
+      <description>The pioneers The modern botanical exploration of the Aegean Islands dates back to the late 18th century. The substantial plant distribution data collected by pioneer botanists working in the Aegean enabled Turrill in 1929 to first divide the area in six phytogeographical regions. Nearly two decades later, Karl-Heinz Rechinger from the Natural History Museum of Vienna based on his extensive plant collections first addressed the phytogeographical peculiarities of the Aegean (e.</description>
+    </item>
+    
+  </channel>
+</rss>

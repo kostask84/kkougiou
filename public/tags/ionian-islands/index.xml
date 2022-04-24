@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Ionian Islands on Kostas Kougioumoutzis</title>
+    <link>https://www.kkougiou.com/tags/ionian-islands/</link>
+    <description>Recent content in Ionian Islands on Kostas Kougioumoutzis</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2020 Kostas Kougioumoutzis</copyright>
+    <lastBuildDate>Thu, 01 Nov 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.kkougiou.com/tags/ionian-islands/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Drivers of alpha and beta vascular plant diversity in the Ionian Islands (Greece)</title>
+      <link>https://www.kkougiou.com/publication/2018-11-01_ionian/</link>
+      <pubDate>Thu, 01 Nov 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kkougiou.com/publication/2018-11-01_ionian/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Flora and vegetation of Trizonia Island – floristic affinities with small Ionian Islands</title>
+      <link>https://www.kkougiou.com/publication/2010-01-01_contribution_to_trizonia_/</link>
+      <pubDate>Fri, 01 Jan 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kkougiou.com/publication/2010-01-01_contribution_to_trizonia_/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

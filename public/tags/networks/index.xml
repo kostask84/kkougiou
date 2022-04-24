@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Networks on Kostas Kougioumoutzis</title>
+    <link>https://www.kkougiou.com/tags/networks/</link>
+    <description>Recent content in Networks on Kostas Kougioumoutzis</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2020 Kostas Kougioumoutzis</copyright>
+    <lastBuildDate>Mon, 01 Oct 2018 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.kkougiou.com/tags/networks/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Plant diversity and biogeography of the Aegean archipelago: a new synthesis</title>
+      <link>https://www.kkougiou.com/publication/2018-10-02_mylonas_plants/</link>
+      <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kkougiou.com/publication/2018-10-02_mylonas_plants/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>The zoogeographic regions of the Aegean Sea: a multi-taxon approach</title>
+      <link>https://www.kkougiou.com/publication/2018-10-01_mylonas_zoa/</link>
+      <pubDate>Mon, 01 Oct 2018 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kkougiou.com/publication/2018-10-01_mylonas_zoa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Network biogeography of a complex island system: the Aegean Archipelago revisited</title>
+      <link>https://www.kkougiou.com/publication/2017-01-01_network_biogeography/</link>
+      <pubDate>Wed, 01 Mar 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kkougiou.com/publication/2017-01-01_network_biogeography/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Network biogeographical analysis of the central Aegean archipelago</title>
+      <link>https://www.kkougiou.com/publication/2014-01-01_network_biogeographi/</link>
+      <pubDate>Wed, 01 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kkougiou.com/publication/2014-01-01_network_biogeographi/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

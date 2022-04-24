@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Teachings on Kostas Kougioumoutzis</title>
+    <link>/teaching/</link>
+    <description>Recent content in Teachings on Kostas Kougioumoutzis</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Kostas Kougioumoutzis</copyright>
+    <lastBuildDate>Wed, 20 Apr 2016 00:00:00 +0300</lastBuildDate>
+    
+	<atom:link href="/teaching/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Teaching</title>
+      <link>/teaching/postgraduate/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0300</pubDate>
+      
+      <guid>/teaching/postgraduate/</guid>
+      <description>I have been part of the instructor&amp;rsquo;s team for the following postgraduate courses at the National and Kapodistrian University of Athens:
+ BMP: Biogeography and Macroecological Patterns
+ IRP: An introduction to R and Python  </description>
+    </item>
+    
+    <item>
+      <title>Teaching</title>
+      <link>/teaching/undergraduate/</link>
+      <pubDate>Wed, 20 Apr 2016 00:00:00 +0300</pubDate>
+      
+      <guid>/teaching/undergraduate/</guid>
+      <description>I have taught the past three years the following undegraduate courses at the University of Patras:
+ PB: Plant Biology II SPB: Special Topics in Botany
+  </description>
+    </item>
+    
+  </channel>
+</rss>

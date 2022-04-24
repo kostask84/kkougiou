@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Crete on Kostas Kougioumoutzis</title>
+    <link>https://www.kkougiou.com/tags/crete/</link>
+    <description>Recent content in Crete on Kostas Kougioumoutzis</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2020 Kostas Kougioumoutzis</copyright>
+    <lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.kkougiou.com/tags/crete/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Overgrazed shrublands support high taxonomic, functional and temporal diversity of Mediterranean ground spider assemblages</title>
+      <link>https://www.kkougiou.com/publication/2019-01-01_grazed_spiders/</link>
+      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kkougiou.com/publication/2019-01-01_grazed_spiders/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ground beetles respond to grazing at assemblage level, rather than species-specifically: The case of Cretan shrublands</title>
+      <link>https://www.kkougiou.com/publication/2013-01-01_ground_beetles_respo/</link>
+      <pubDate>Tue, 01 Jan 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kkougiou.com/publication/2013-01-01_ground_beetles_respo/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Recent &amp; Upcoming Talks on Kostas Kougioumoutzis</title>
+    <link>https://www.kkougiou.com/talk/</link>
+    <description>Recent content in Recent &amp; Upcoming Talks on Kostas Kougioumoutzis</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2020 Kostas Kougioumoutzis</copyright>
+    <lastBuildDate>Sun, 01 Jan 2017 00:00:00 +0200</lastBuildDate>
+    
+	<atom:link href="https://www.kkougiou.com/talk/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Πρώτη διάλεξη - Ειδικά Μαθήματα Βοτανικής</title>
+      <link>https://www.kkougiou.com/talk/first-talk/</link>
+      <pubDate>Thu, 20 Feb 2020 12:00:00 +0200</pubDate>
+      
+      <guid>https://www.kkougiou.com/talk/first-talk/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

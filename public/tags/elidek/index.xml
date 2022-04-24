@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ELIDEK on Kostas Kougioumoutzis</title>
+    <link>https://www.kkougiou.com/tags/elidek/</link>
+    <description>Recent content in ELIDEK on Kostas Kougioumoutzis</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2020 Kostas Kougioumoutzis</copyright>
+    <lastBuildDate>Mon, 25 Jan 2021 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="https://www.kkougiou.com/tags/elidek/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Second year of SoBEx</title>
+      <link>https://www.kkougiou.com/post/2021-01-25-second-year-of-sobex/</link>
+      <pubDate>Mon, 25 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kkougiou.com/post/2021-01-25-second-year-of-sobex/</guid>
+      <description>body {text-align: justify}OverviewThe second year of SoBEx has been hard, since due to covid-19 restrictions our team was not able to work properly or conduct field research for all the species we study.
+What has been doneSo far we have conducted molecular/genetic analyses for most of the studied animal and plant taxa. We have also run several macroecological analyses so as to estimate the effects of climate change on these Critically Endangered species, as well as to estimate the percent overlap of these species’ distribution range with the NATURA 2000 protected areas network (PAs - gap analysis).</description>
+    </item>
+    
+    <item>
+      <title>First year of SoBEx</title>
+      <link>https://www.kkougiou.com/post/sobex-post/first-year-of-sobex/</link>
+      <pubDate>Wed, 29 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kkougiou.com/post/sobex-post/first-year-of-sobex/</guid>
+      <description>body {text-align: justify}OverviewDuring the past year, the SoBEx team, together with Yannis Alexiou, Gabriela Kelaidi and Chrysa Papadaki, three post-graduate students in UAMECO lab has been conducting field work in several Aegean islands (Figure 1), mainland Greek mountains (Figure 2) and lakes, so as to collect population and environmental data for the Critically Endangered Greek endemic animal and plant species (according to the IUCN).</description>
+    </item>
+    
+    <item>
+      <title>Species on the brink of extinction</title>
+      <link>https://www.kkougiou.com/project/internal-project/</link>
+      <pubDate>Wed, 09 Jan 2019 00:00:00 +0200</pubDate>
+      
+      <guid>https://www.kkougiou.com/project/internal-project/</guid>
+      <description>Biodiversity in the Anthropocene We have now entered a novel geological epoch, the Anthropocene, which is characterized by severe anthropogenic pressures to the global environment. The planet is facing an unprecedented biodiversity crisis, with current extinction rates 1000 times higher than the background extinction rate. In order to halt this phenomenon, the Convention on Biological Diversity (CBD) established the currently running CBD ‘Aichi’ Targets, the most important of which is Target 12: ‘by 2020, the extinction of known threatened species has been prevented and their conservation status, particularly of those most in decline, has been improved and sustained’.</description>
+    </item>
+    
+  </channel>
+</rss>

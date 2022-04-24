@@ -1,0 +1,417 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Kostas Kougioumoutzis on Kostas Kougioumoutzis</title>
+    <link>https://www.kkougiou.com/</link>
+    <description>Recent content in Kostas Kougioumoutzis on Kostas Kougioumoutzis</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2020 Kostas Kougioumoutzis</copyright>
+    <lastBuildDate>Sun, 15 Oct 2017 00:00:00 +0300</lastBuildDate>
+    <atom:link href="/" rel="self" type="application/rss+xml" />
+    
+    <item>
+      <title>Second year of SoBEx</title>
+      <link>https://www.kkougiou.com/post/2021-01-25-second-year-of-sobex/</link>
+      <pubDate>Mon, 25 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kkougiou.com/post/2021-01-25-second-year-of-sobex/</guid>
+      <description>
+
+
+&lt;style&gt;
+body {
+text-align: justify}
+&lt;/style&gt;
+&lt;div id=&#34;overview&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Overview&lt;/h2&gt;
+&lt;p&gt;The second year of &lt;a href=&#34;https://www.kkougiou.com/project/internal-project/&#34;&gt;SoBEx&lt;/a&gt; has been hard, since due to covid-19 restrictions our team was not able to work properly or conduct field research for all the species we study.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;what-has-been-done&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;What has been done&lt;/h2&gt;
+&lt;p&gt;So far we have conducted molecular/genetic analyses for most of the studied animal and plant taxa. We have also run several macroecological analyses so as to estimate the effects of climate change on these Critically Endangered species, as well as to estimate the percent overlap of these species’ distribution range with the NATURA 2000 protected areas network (PAs - gap analysis). We ran correlative Species Distribution Models in an ESM ensemble framework, since we were dealing with very rare species. We have also published part of our work in &lt;em&gt;Diversity&lt;/em&gt; and you can find the relevant publication, which made the front cover of this journal &lt;a href=&#34;https://www.kkougiou.com/pdf/Crete-SDM.pdf&#34;&gt;here&lt;/a&gt; and &lt;a href=&#34;https://www.mdpi.com/1424-2818/12/7/270&#34;&gt;here&lt;/a&gt;. This publication focused on the effects of climate change on the distribution of the Cretan single island endemic plants that are included in SoBEx. We are now working on a second manuscript that deals with the conservation genetics of &lt;em&gt;Aethionema retsina&lt;/em&gt;, &lt;em&gt;Allium iatrouinum&lt;/em&gt; and &lt;em&gt;Convolvulus heldreichii&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;According to the SDM analyses, all of the species under study are projected to become extinct in the coming decades, under any Global Circulation Model (GCM), Representative Concentration Pathway (RCP) and climate database combination (for instance: Figure &lt;a href=&#34;#fig:comb&#34;&gt;1&lt;/a&gt; or Figure&lt;a href=&#34;#fig:comb2&#34;&gt;2&lt;/a&gt;). Bioclimatic consinstency for our predictions is high, irrespective of the taxon considered (for instance: Figure &lt;a href=&#34;#fig:comb3&#34;&gt;3&lt;/a&gt;). The median percentage loss was 100% across all species. Our models had sufficient predictive power (TSS &lt;span class=&#34;math inline&#34;&gt;\(\geq 0.75\)&lt;/span&gt; - median TSS: 0.78). All models were found to outperform the null expectation at P &lt;span class=&#34;math inline&#34;&gt;\(&amp;lt; 0.05\)&lt;/span&gt;.&lt;/p&gt;
+&lt;div class=&#34;figure&#34; style=&#34;text-align: center&#34;&gt;&lt;span id=&#34;fig:comb&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;https://www.kkougiou.com/img/CHOLA.png&#34; alt=&#34;Occurrence probability map of Chorthippus lacustris for the present time-period&#34;  /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figure 1: Occurrence probability map of Chorthippus lacustris for the present time-period
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;figure&#34; style=&#34;text-align: center&#34;&gt;&lt;span id=&#34;fig:comb2&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;https://www.kkougiou.com/img/PECE.png&#34; alt=&#34;Occurrence probability map of Pelophylax cerigensis for the present time-period&#34;  /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figure 2: Occurrence probability map of Pelophylax cerigensis for the present time-period
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;figure&#34; style=&#34;text-align: center&#34;&gt;&lt;span id=&#34;fig:comb3&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;https://www.kkougiou.com/img/BICO.png&#34; alt=&#34;Bioclimatic consistency maps for Allium iatrouinum and Aethionema retsina. From left to right: based on WorldClim; based on CHELSA.&#34;  /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figure 3: Bioclimatic consistency maps for Allium iatrouinum and Aethionema retsina. From left to right: based on WorldClim; based on CHELSA.
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;According to the gap analysis, the distribution range of the species under study varied from 0.001 km&lt;sup&gt;2&lt;/sup&gt; to 9756.2 km&lt;sup&gt;2&lt;/sup&gt;. Two gastropods, namely &lt;em&gt;Lindbergia gittenbergeri&lt;/em&gt; and &lt;em&gt;Tsoukatosia evauemgei&lt;/em&gt;, occur exclusively outside any PA. Thirteen species (nine plants and four gastropods) on the other hand, occur exclusively in PAs. The mean percentage overlap is 48.1%, yet most species (ca. 60%) occur outside the Greek PAs for at least half of their distribution range (Figure &lt;a href=&#34;#fig:gap&#34;&gt;4&lt;/a&gt;). The mean percentage overlap was highest in plants (67.6%), followed by molluscs (47.4%), arthropods (39.7%) and vertebrates (17.1%).&lt;/p&gt;
+&lt;div class=&#34;figure&#34; style=&#34;text-align: center&#34;&gt;&lt;span id=&#34;fig:gap&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;https://www.kkougiou.com/img/gap.jpg&#34; alt=&#34;Results of the gap analysis for the studied taxa&#34;  /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figure 4: Results of the gap analysis for the studied taxa
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;Regarding the genetic diversity analyses, almost for the entirety of the studied taxa, genetic diversity is low, as expected for organisms with small population sizes, that are taxonomically and geographicall isolated.&lt;/p&gt;
+&lt;p&gt;You can find more information &lt;a href=&#34;https://www.kkougiou.com/pdf/progress%202020.pdf&#34;&gt;here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This project has received funding from the &lt;a href=&#34;http://www.elidek.gr/en/homepage/&#34;&gt;Hellenic Foundation for Research and Innovation (HFRI)&lt;/a&gt; and the &lt;a href=&#34;http://www.gsrt.gr/central.aspx?sId=119I428I1089I323I488743&#34;&gt;General Secretariat for Research and Technology (GSRT)&lt;/a&gt;, under grant agreement &lt;strong&gt;No [2418]&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.kkougiou.com/img/hfri.png&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.kkougiou.com/img/gsrt.png&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Plant Endemism Centres and Biodiversity Hotspots in Greece </title>
+      <link>https://www.kkougiou.com/publication/2021-01-20_bc-eh/</link>
+      <pubDate>Wed, 20 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kkougiou.com/publication/2021-01-20_bc-eh/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Spatial Phylogenetics, Biogeographical Patterns and Conservation Implications of the Endemic Flora of Crete (Aegean, Greece) under Climate Change Scenarios</title>
+      <link>https://www.kkougiou.com/publication/2020-07-31_crete-spatialphylo/</link>
+      <pubDate>Fri, 31 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kkougiou.com/publication/2020-07-31_crete-spatialphylo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Plant Diversity Patterns and Conservation Implications under Climate-Change Scenarios in the Mediterranean: The Case of Crete (Aegean, Greece)</title>
+      <link>https://www.kkougiou.com/publication/2020-07-10_crete-sdm/</link>
+      <pubDate>Tue, 07 Jul 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kkougiou.com/publication/2020-07-10_crete-sdm/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Unravelling the small-island effect through phylogenetic community ecology</title>
+      <link>https://www.kkougiou.com/publication/2020-06-29_phylosie/</link>
+      <pubDate>Mon, 29 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kkougiou.com/publication/2020-06-29_phylosie/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Genetic Diversity and Range Dynamics of Helleborus Odorus Subsp. Cyclophyllus under Different Climate Change Scenarios</title>
+      <link>https://www.kkougiou.com/publication/2020-06-01_helleborus/</link>
+      <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kkougiou.com/publication/2020-06-01_helleborus/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Population genetic variability and distribution of the endangered Greek endemic Cicer graecum under climate change scenarios</title>
+      <link>https://www.kkougiou.com/publication/2020-29-02_cicer/</link>
+      <pubDate>Sat, 29 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kkougiou.com/publication/2020-29-02_cicer/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Taxonomic and phylogenetic diversity patterns in the Northern Sporades islets complex (West Aegean, Greece)</title>
+      <link>https://www.kkougiou.com/publication/2020-21-02_sporades/</link>
+      <pubDate>Fri, 21 Feb 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kkougiou.com/publication/2020-21-02_sporades/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Πρώτη διάλεξη - Ειδικά Μαθήματα Βοτανικής</title>
+      <link>https://www.kkougiou.com/talk/first-talk/</link>
+      <pubDate>Thu, 20 Feb 2020 12:00:00 +0200</pubDate>
+      
+      <guid>https://www.kkougiou.com/talk/first-talk/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>First year of SoBEx</title>
+      <link>https://www.kkougiou.com/post/sobex-post/first-year-of-sobex/</link>
+      <pubDate>Wed, 29 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kkougiou.com/post/sobex-post/first-year-of-sobex/</guid>
+      <description>
+
+
+&lt;style&gt;
+body {
+text-align: justify}
+&lt;/style&gt;
+&lt;div id=&#34;overview&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Overview&lt;/h2&gt;
+&lt;p&gt;During the past year, the &lt;a href=&#34;https://www.kkougiou.com/project/internal-project/&#34;&gt;SoBEx&lt;/a&gt; team, together with Yannis Alexiou, Gabriela Kelaidi and Chrysa Papadaki, three post-graduate students in &lt;a href=&#34;https://sites.google.com/site/uameco/home&#34;&gt;UAMECO lab&lt;/a&gt; has been conducting field work in several Aegean islands (Figure &lt;a href=&#34;#fig:Aegean&#34;&gt;1&lt;/a&gt;), mainland Greek mountains (Figure &lt;a href=&#34;#fig:mountains&#34;&gt;2&lt;/a&gt;) and lakes, so as to collect population and environmental data for the Critically Endangered Greek endemic animal and plant species (according to the IUCN).&lt;/p&gt;
+&lt;div class=&#34;figure&#34; style=&#34;text-align: center&#34;&gt;&lt;span id=&#34;fig:Aegean&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;https://www.kkougiou.com/img/Kythira.jpg&#34; alt=&#34;SoBEx team on Kythira, near the Polygala helenae site&#34;  /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figure 1: SoBEx team on Kythira, near the Polygala helenae site
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;figure&#34; style=&#34;text-align: center&#34;&gt;&lt;span id=&#34;fig:mountains&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;https://www.kkougiou.com/img/Kingilos.jpg&#34; alt=&#34;At Mt. Kingilos on W Crete, in search of Bupleurum kakiskalae&#34;  /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figure 2: At Mt. Kingilos on W Crete, in search of Bupleurum kakiskalae
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div id=&#34;what-has-been-done&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;What has been done&lt;/h2&gt;
+&lt;p&gt;So far we have gathered all the relevant data for more than 30 species (13 plants and 18 animals) and we have conducted molecular/genetic analyses for these taxa. We have also run several macroecological analyses so as to estimate the effects of climate change on these Critically Endangered species, as well as to estimate the percent overlap of these species’ distribution range with the NATURA 2000 protected areas network (PAs - gap analysis). We ran correlative Species Distribution Models in an ensemble framework &lt;span class=&#34;citation&#34;&gt;(Araújo et al. &lt;a href=&#34;#ref-araujo2019standards&#34; role=&#34;doc-biblioref&#34;&gt;2019&lt;/a&gt;)&lt;/span&gt;, using Breiner’s et al. &lt;span class=&#34;citation&#34;&gt;(&lt;a href=&#34;#ref-breiner2015overcoming&#34; role=&#34;doc-biblioref&#34;&gt;2015&lt;/a&gt;, &lt;a href=&#34;#ref-breiner2017including&#34; role=&#34;doc-biblioref&#34;&gt;2017&lt;/a&gt;, &lt;a href=&#34;#ref-breiner2018optimizing&#34; role=&#34;doc-biblioref&#34;&gt;2018&lt;/a&gt;)&lt;/span&gt; scheme, since we were dealing with very rare species.&lt;/p&gt;
+&lt;p&gt;It seems that &lt;em&gt;Isoetes heldreichii&lt;/em&gt;, a rare narrow endemic, has gone extinct. It was first described in 1886 from the wider Paleokastro area near Karditsa. It was the only &lt;em&gt;Isoetes&lt;/em&gt; species in Greece occurring in exclusively freshwater habitats. This species has not been recorded for nearly 140 years. Its locus classicus has been destroyed so as to construct a dam &lt;span class=&#34;citation&#34;&gt;(Troia and Greuter &lt;a href=&#34;#ref-troia2015conspectus&#34; role=&#34;doc-biblioref&#34;&gt;2015&lt;/a&gt;)&lt;/span&gt;.&lt;/p&gt;
+&lt;p&gt;The population of four plant species, namely &lt;em&gt;Aethionema retsina&lt;/em&gt; (Figure &lt;a href=&#34;#fig:retsina&#34;&gt;3&lt;/a&gt;), &lt;em&gt;Anthemis glaberrima&lt;/em&gt;, &lt;em&gt;Convolvulus argyrothamnos&lt;/em&gt;, and &lt;em&gt;Horstrissea dolinicola&lt;/em&gt; (Figure &lt;a href=&#34;#fig:doli&#34;&gt;4&lt;/a&gt;), show a decreasing population trend.&lt;/p&gt;
+&lt;div class=&#34;figure&#34; style=&#34;text-align: center&#34;&gt;&lt;span id=&#34;fig:retsina&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;https://www.kkougiou.com/img/retsina.jpg&#34; alt=&#34;Aethionema retsina&#34;  /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figure 3: Aethionema retsina
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class=&#34;figure&#34; style=&#34;text-align: center&#34;&gt;&lt;span id=&#34;fig:doli&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;https://www.kkougiou.com/img/doli.jpg&#34; alt=&#34;Horstrissea dolinicola&#34;  /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figure 4: Horstrissea dolinicola
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;On the other hand, three plant species, namely &lt;em&gt;Allium iatrouinum&lt;/em&gt;, &lt;em&gt;Bupleurum kakiskalae&lt;/em&gt; and &lt;em&gt;Minuartia dirphya&lt;/em&gt; (Figure &lt;a href=&#34;#fig:dirphya&#34;&gt;5&lt;/a&gt;) show a weak increasing population trend.&lt;/p&gt;
+&lt;div class=&#34;figure&#34; style=&#34;text-align: center&#34;&gt;&lt;span id=&#34;fig:dirphya&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;https://www.kkougiou.com/img/dirphya.jpg&#34; alt=&#34;Minuartia dirphya&#34;  /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figure 5: Minuartia dirphya
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;We report for the first time, precise population data for &lt;em&gt;Polygala helenae&lt;/em&gt;and &lt;em&gt;Saponaria jagelii&lt;/em&gt; (Figure &lt;a href=&#34;#fig:sapo&#34;&gt;6&lt;/a&gt;). &lt;em&gt;Polygala helenae&lt;/em&gt; and &lt;em&gt;Saponaria jagelii&lt;/em&gt; comprise 382 and 1815 individuals, respectively. These values now constitute the Favourable Reference Values (FRVs) for the population size of these species. The FRVs for the Extent of Occurrence (EOO) and Area of Occupancy (AOO) for both of these species is 8 km&lt;sup&gt;2&lt;/sup&gt;.&lt;/p&gt;
+&lt;div class=&#34;figure&#34; style=&#34;text-align: center&#34;&gt;&lt;span id=&#34;fig:sapo&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;https://www.kkougiou.com/img/sapo.jpg&#34; alt=&#34;Saponaria jagelii&#34;  /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figure 6: Saponaria jagelii
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;According to the SDM analyses, all of the species under study are projected to become extinct in the coming decades, under any Global Circulation Model (GCM), Representative Concentration Pathway (RCP) and climate database combination (for instance: Figure &lt;a href=&#34;#fig:comb&#34;&gt;7&lt;/a&gt;). The median percentage loss was 100% across all species. Our models had sufficient predictive power (TSS &lt;span class=&#34;math inline&#34;&gt;\(\geq 0.75\)&lt;/span&gt; - median TSS: 0.78). All models were found to outperform the null expectation at P &lt;span class=&#34;math inline&#34;&gt;\(&amp;lt; 0.05\)&lt;/span&gt;.&lt;/p&gt;
+&lt;div class=&#34;figure&#34; style=&#34;text-align: center&#34;&gt;&lt;span id=&#34;fig:comb&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;https://www.kkougiou.com/img/comb.jpg&#34; alt=&#34;Occurrence probability map of Saponaria jagelii for the present time-period&#34;  /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figure 7: Occurrence probability map of Saponaria jagelii for the present time-period
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;According to the gap analysis, the distribution range of the species under study varied from 0.001 km&lt;sup&gt;2&lt;/sup&gt; to 9756.2 km&lt;sup&gt;2&lt;/sup&gt;. Two gastropods, namely &lt;em&gt;Lindbergia gittenbergeri&lt;/em&gt; and &lt;em&gt;Tsoukatosia evauemgei&lt;/em&gt;, occur exclusively outside any PA. Thirteen species (nine plants and four gastropods) on the other hand, occur exclusively in PAs. The mean percentage overlap is 48.1%, yet most species (ca. 60%) occur outside the Greek PAs for at least half of their distribution range (Figure &lt;a href=&#34;#fig:gap&#34;&gt;8&lt;/a&gt;). The mean percentage overlap was highest in plants (67.6%), followed by molluscs (47.4%), arthropods (39.7%) and vertebrates (17.1%).&lt;/p&gt;
+&lt;div class=&#34;figure&#34; style=&#34;text-align: center&#34;&gt;&lt;span id=&#34;fig:gap&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;https://www.kkougiou.com/img/gap.jpg&#34; alt=&#34;Results of the gap analysis for the studied taxa&#34;  /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figure 8: Results of the gap analysis for the studied taxa
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;You can find more information &lt;a href=&#34;https://www.kkougiou.com/pdf/progress.pdf&#34;&gt;here&lt;/a&gt;. The SoBEx team has also presented some of the first year’s results in two &lt;a href=&#34;https://www.kkougiou.com/pdf/OPTIMA.pdf&#34;&gt;international&lt;/a&gt; and one &lt;a href=&#34;https://www.kkougiou.com/pdf/SoBEx.pdf&#34;&gt;national&lt;/a&gt; scientific congresses.&lt;/p&gt;
+&lt;p&gt;This project has received funding from the &lt;a href=&#34;http://www.elidek.gr/en/homepage/&#34;&gt;Hellenic Foundation for Research and Innovation (HFRI)&lt;/a&gt; and the &lt;a href=&#34;http://www.gsrt.gr/central.aspx?sId=119I428I1089I323I488743&#34;&gt;General Secretariat for Research and Technology (GSRT)&lt;/a&gt;, under grant agreement &lt;strong&gt;No [2418]&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.kkougiou.com/img/hfri.png&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&#34;https://www.kkougiou.com/img/gsrt.png&#34; style=&#34;display: block; margin: auto;&#34; /&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;references&#34; class=&#34;section level2 unnumbered&#34;&gt;
+&lt;h2&gt;References&lt;/h2&gt;
+&lt;div id=&#34;refs&#34; class=&#34;references&#34;&gt;
+&lt;div id=&#34;ref-araujo2019standards&#34;&gt;
+&lt;p&gt;Araújo, Miguel B, Robert P Anderson, A Márcia Barbosa, Colin M Beale, Carsten F Dormann, Regan Early, Raquel A Garcia, et al. 2019. “Standards for Distribution Models in Biodiversity Assessments.” &lt;em&gt;Science Advances&lt;/em&gt; 5 (1): eaat4858.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-breiner2015overcoming&#34;&gt;
+&lt;p&gt;Breiner, Frank T, Antoine Guisan, Ariel Bergamini, and Michael P Nobis. 2015. “Overcoming Limitations of Modelling Rare Species by Using Ensembles of Small Models.” &lt;em&gt;Methods in Ecology and Evolution&lt;/em&gt; 6 (10): 1210–8.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-breiner2017including&#34;&gt;
+&lt;p&gt;Breiner, Frank T, Antoine Guisan, Michael P Nobis, and Ariel Bergamini. 2017. “Including Environmental Niche Information to Improve Iucn Red List Assessments.” &lt;em&gt;Diversity and Distributions&lt;/em&gt; 23 (5): 484–95.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-breiner2018optimizing&#34;&gt;
+&lt;p&gt;Breiner, Frank T, Michael P Nobis, Ariel Bergamini, and Antoine Guisan. 2018. “Optimizing Ensembles of Small Models for Predicting the Distribution of Species with Few Occurrences.” &lt;em&gt;Methods in Ecology and Evolution&lt;/em&gt; 9 (4): 802–8.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-troia2015conspectus&#34;&gt;
+&lt;p&gt;Troia, Angelo, and Werner Greuter. 2015. “A Conspectus of and Key to Greek Isoetes (Isoetaceae), Based on a Reassessment of Haussknecht’s Gatherings of 1885.” &lt;em&gt;Willdenowia&lt;/em&gt; 45 (3): 391–403.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Short-term vacancy</title>
+      <link>https://www.kkougiou.com/post/short-term-vacancy/</link>
+      <pubDate>Wed, 29 Jan 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kkougiou.com/post/short-term-vacancy/</guid>
+      <description>
+
+&lt;h2 id=&#34;job-opening&#34;&gt;Job opening&lt;/h2&gt;
+
+&lt;p&gt;In our project entitled &lt;strong&gt;Species on the brink of extinction&lt;/strong&gt; funded by the &lt;a href=&#34;http://www.elidek.gr/en/homepage/&#34; target=&#34;_blank&#34;&gt;Hellenic Foundation for Research and Innovation (HFRI)&lt;/a&gt; and the &lt;a href=&#34;http://www.gsrt.gr/central.aspx?sId=119I428I1089I323I488743&#34; target=&#34;_blank&#34;&gt;General Secretariat for Research and Technology (GSRT)&lt;/a&gt;  under grant agreement No 2418, we are offering one (1) short-term post-graduate position.&lt;/p&gt;
+
+&lt;h2 id=&#34;requirements&#34;&gt;Requirements&lt;/h2&gt;
+
+&lt;p&gt;If you are enthusiastic about working in the field, collecting plant samples and have (some) experience in and molecular/genetic techniques (especially in ISSRs), then you should probably consider to apply for this position. You can find a more detailed description (in Greek though) of the required and desired qualifications &lt;a href=&#34;http://www.elke.uoa.gr/proc_persons_details.aspx?id=2939&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;. Please contact me should you need any more information, I&amp;rsquo;ll be more than happy to answer any of your questions and talk with you about this exciting project.&lt;/p&gt;
+
+&lt;h2 id=&#34;deadline&#34;&gt;Deadline&lt;/h2&gt;
+
+&lt;p&gt;If interested, you should send your application, CV and all relevant information by $\color{green}{\textbf{11 February 2020}}$ at the latest.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Implications of salep collection for the conservation of the Elder‑flowered orchid Dactylorhiza sambucina) in Epirus, Greece</title>
+      <link>https://www.kkougiou.com/publication/2019-31-12_salep/</link>
+      <pubDate>Tue, 31 Dec 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kkougiou.com/publication/2019-31-12_salep/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Join the lab</title>
+      <link>https://www.kkougiou.com/post/second-post/join-the-lab/</link>
+      <pubDate>Sun, 10 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kkougiou.com/post/second-post/join-the-lab/</guid>
+      <description>
+
+&lt;h2 id=&#34;job-opening&#34;&gt;Job opening&lt;/h2&gt;
+
+&lt;p&gt;In our project entitled &lt;strong&gt;Species on the brink of extinction&lt;/strong&gt; funded by the &lt;a href=&#34;http://www.elidek.gr/en/homepage/&#34; target=&#34;_blank&#34;&gt;Hellenic Foundation for Research and Innovation (HFRI)&lt;/a&gt; and the &lt;a href=&#34;http://www.gsrt.gr/central.aspx?sId=119I428I1089I323I488743&#34; target=&#34;_blank&#34;&gt;General Secretariat for Research and Technology (GSRT)&lt;/a&gt;  under grant agreement No 2418, we are offering three (3) short-term post-graduate positions.&lt;/p&gt;
+
+&lt;h2 id=&#34;requirements&#34;&gt;Requirements&lt;/h2&gt;
+
+&lt;p&gt;If you are enthusiastic about working in the field, collecting plant and animal samples and have (some) experience in spatial analysis, species distribution modelling and molecular/genetic techniques, then you should probably consider to apply for one of these positions. You can find a more detailed description (in Greek though) of the required and desired qualifications &lt;a href=&#34;http://www.elke.uoa.gr/proc_persons_details.aspx?id=2400&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;. Please contact me should you need any more information, I&amp;rsquo;ll be more than happy to answer any of your questions and talk with you about this exciting project.&lt;/p&gt;
+
+&lt;h2 id=&#34;deadline&#34;&gt;Deadline&lt;/h2&gt;
+
+&lt;p&gt;If interested, you should send your application, CV and all relevant information by $\color{green}{\textbf{22 February 2019}}$ at the latest.&lt;/p&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>A small intro</title>
+      <link>https://www.kkougiou.com/post/first-post/how-i-am-and-what-s-this-blog-going-to-be-about/</link>
+      <pubDate>Sat, 12 Jan 2019 00:00:00 +0000</pubDate>
+      
+      <guid>https://www.kkougiou.com/post/first-post/how-i-am-and-what-s-this-blog-going-to-be-about/</guid>
+      <description>
+
+
+&lt;p&gt;In this blog I am going to share my thoughts on some papers that I find interesting (and hopefully you too), several how-to’s regarding several types of analysis in R and maybe photos from all my field-trips!&lt;/p&gt;
+&lt;p&gt;But first of all, let me introduce myself&lt;a href=&#34;#fn1&#34; class=&#34;footnoteRef&#34; id=&#34;fnref1&#34;&gt;&lt;sup&gt;1&lt;/sup&gt;&lt;/a&gt;:&lt;/p&gt;
+&lt;div id=&#34;general-info&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;General Info&lt;/h2&gt;
+&lt;p&gt;I was born and raised in Athens (Figure &lt;a href=&#34;#fig:Athens&#34;&gt;1&lt;/a&gt;) in the early, glorious 80s, but I come &lt;a href=&#34;https://www.youtube.com/watch?v=XfR9iY5y94s&#34;&gt;from the land of plenty&lt;/a&gt;.&lt;/p&gt;
+&lt;div class=&#34;figure&#34; style=&#34;text-align: center&#34;&gt;&lt;span id=&#34;fig:Athens&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;https://www.kkougiou.com/img/Athens.jpg&#34; alt=&#34;Athens view from Acropolis (Photo by Arthur Yeti on Unsplash)&#34;  /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figure 1: Athens view from Acropolis (Photo by Arthur Yeti on Unsplash)
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;No, no, just joking: my ancestral home is Crete (Figure &lt;a href=&#34;#fig:Crete&#34;&gt;2&lt;/a&gt;), the hottest biodiversity hotspot in the Mediterranean Basin &lt;span class=&#34;citation&#34;&gt;(Médail &lt;a href=&#34;#ref-medail2017specific&#34;&gt;2017&lt;/a&gt;)&lt;/span&gt;, since it hosts nearly 400 Greek endemics and ca. 180 Single Island Endemics &lt;span class=&#34;citation&#34;&gt;(Dimopoulos et al. &lt;a href=&#34;#ref-dimopoulos2013vascular&#34;&gt;2013&lt;/a&gt;; &lt;a href=&#34;#ref-dimopoulos2016vascular&#34;&gt;2016&lt;/a&gt;; Strid &lt;a href=&#34;#ref-strid2016atlas&#34;&gt;2016&lt;/a&gt;)&lt;/span&gt;.&lt;/p&gt;
+&lt;div class=&#34;figure&#34; style=&#34;text-align: center&#34;&gt;&lt;span id=&#34;fig:Crete&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;https://www.kkougiou.com/img/Crete.jpg&#34; alt=&#34;Aerial view of Crete (By ISS Expedition 28 crew - NASA Earth Observatory, Public Domain, https://commons.wikimedia.org/w/index.php?curid=16108310)&#34;  /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figure 2: Aerial view of Crete (By ISS Expedition 28 crew - NASA Earth Observatory, Public Domain, &lt;a href=&#34;https://commons.wikimedia.org/w/index.php?curid=16108310&#34; class=&#34;uri&#34;&gt;https://commons.wikimedia.org/w/index.php?curid=16108310&lt;/a&gt;)
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;As a kid, I spent all my Easter holidays and summers there, at my grandma’s small and typical Mediterranean village, having fun with my cousins, running around and wreaking havoc. What I remember rather fondly, is my maternal grandpa, who - to be honest - was actually the one that made me wonder about nature and plants, more specifically.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;dr.strangeplant-or-how-i-stopped-worrying-and-learned-to-love-plants&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Dr. StrangePlant or How I stopped worrying and learned to love plants&lt;/h2&gt;
+&lt;p&gt;My grandpa was a wonderful man and an archetypical member of the &lt;a href=&#34;https://www.thebalancecareers.com/workplace-characteristics-silent-generation-2164692&#34;&gt;Silent Generation&lt;/a&gt;. Every day, even in his late 70s, he would have a brief siesta and wake up after an hour or two and head to his fields and crops. Me joining him was inevitable and thrilling: in one of those hikes, I was introduced to the world of plants and how they (all!) can be benificial to us. As we were walking in the olive groves, my grandpa showed me one of the plants he and his seven sisters were eating during the &lt;a href=&#34;https://en.wikipedia.org/wiki/Axis_occupation_of_Greece&#34;&gt;German Occupation&lt;/a&gt;. It didn’t seem like much, but it kept them alive. And boy, oh boy what a plant that is: it’s everywhere&lt;a href=&#34;#fn2&#34; class=&#34;footnoteRef&#34; id=&#34;fnref2&#34;&gt;&lt;sup&gt;2&lt;/sup&gt;&lt;/a&gt; in Crete, it’s edible, it’s called &lt;em&gt;Petromarulo&lt;/em&gt; (from &lt;em&gt;Petra&lt;/em&gt; - meaning rock - and &lt;em&gt;Marouli&lt;/em&gt; - meaning lettuce) and it’s one of the seven &lt;strong&gt;endemic genera&lt;/strong&gt; of Greece (Figure &lt;a href=&#34;#fig:Petromarula&#34;&gt;3&lt;/a&gt;)!&lt;/p&gt;
+&lt;div class=&#34;figure&#34; style=&#34;text-align: center&#34;&gt;&lt;span id=&#34;fig:Petromarula&#34;&gt;&lt;/span&gt;
+&lt;img src=&#34;https://www.kkougiou.com/img/Petromarula.jpg&#34; alt=&#34;*Petromarula pinnata* (L.) A.DC., a monotypic, endemic plant genus of Greece (Photo by Amadej Trnkoczy in Flickr)&#34;  /&gt;
+&lt;p class=&#34;caption&#34;&gt;
+Figure 3: &lt;em&gt;Petromarula pinnata&lt;/em&gt; (L.) A.DC., a monotypic, endemic plant genus of Greece (Photo by Amadej Trnkoczy in Flickr)
+&lt;/p&gt;
+&lt;/div&gt;
+&lt;p&gt;A couple of years later, I got accepted in the &lt;a href=&#34;http://www.biology.upatras.gr/&#34;&gt;Biology Department&lt;/a&gt; of the University of Patras. Little did I know then, but it would become my home for the years to come. Several great people taught there and I was lucky enough to be at a place that Botany was thriving. In my first year as a student there, I met a person that would shape me to the academic I am now and to whom I owe everything: &lt;a href=&#34;https://www.researchgate.net/profile/Argyro_Tiniakou&#34;&gt;Ass. Prof. Argyro Tiniakou&lt;/a&gt;. Surely &lt;a href=&#34;https://www.pelopevents.gr/?section=2664&amp;amp;language=el_GR&amp;amp;itemid1494=3063&amp;amp;detail1494=1&#34;&gt;Prof. Grigoris Iatrou&lt;/a&gt; with his larger-than-life persona and great teaching skills sparkled my interest to study plant systematics, after attending his course in my second year and definitely &lt;a href=&#34;https://www.linkedin.com/in/roula-trigou-29425621/?originalSubdomain=gr&#34;&gt;Roula Trigou&lt;/a&gt;, a M.Sc. student at the time, helped realize how fun it can be trying to identify the plant specimens that lay in front of you&lt;a href=&#34;#fn3&#34; class=&#34;footnoteRef&#34; id=&#34;fnref3&#34;&gt;&lt;sup&gt;3&lt;/sup&gt;&lt;/a&gt;, but it was Ass. Prof. Argyro Tiniakou, that taught me how to think, write, speak scientifically, ask the right questions, push myself to the limit, broaden my horizons and properly collect, identify and store plant specimens.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;mumble-in-the-jungle-or-what-i-like-talking-about&#34; class=&#34;section level2&#34;&gt;
+&lt;h2&gt;Mumble in the jungle or what I like talking about&lt;/h2&gt;
+&lt;p&gt;If you’ve made it this far, kudos to you! You are extremely patient and a great listener - rare commodities these days. I love doing many things, most of which are pretty lonely: reading&lt;a href=&#34;#fn4&#34; class=&#34;footnoteRef&#34; id=&#34;fnref4&#34;&gt;&lt;sup&gt;4&lt;/sup&gt;&lt;/a&gt;, hiking, going to the gym&lt;a href=&#34;#fn5&#34; class=&#34;footnoteRef&#34; id=&#34;fnref5&#34;&gt;&lt;sup&gt;5&lt;/sup&gt;&lt;/a&gt;, binge-watching series&lt;a href=&#34;#fn6&#34; class=&#34;footnoteRef&#34; id=&#34;fnref6&#34;&gt;&lt;sup&gt;6&lt;/sup&gt;&lt;/a&gt;, some more reading&lt;a href=&#34;#fn7&#34; class=&#34;footnoteRef&#34; id=&#34;fnref7&#34;&gt;&lt;sup&gt;7&lt;/sup&gt;&lt;/a&gt;, but what I &lt;strong&gt;really&lt;/strong&gt; like doing is teaching and sharing what I know/learned over the years. So, I will try to write (semi-)regularly some posts dealing with &lt;a href=&#34;https://www.r-project.org/&#34;&gt;R&lt;/a&gt;, starting from scratch and then possibly progressing to more advanced topics and analyses. Now, that I think about it, I may as well write about plant evolution and systematics, since only once did I have the chance to talk and teach (on an academic level) about my favourite organisms on the planet&lt;a href=&#34;#fn8&#34; class=&#34;footnoteRef&#34; id=&#34;fnref8&#34;&gt;&lt;sup&gt;8&lt;/sup&gt;&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;So there you have it guys!&lt;/p&gt;
+&lt;div id=&#34;references&#34; class=&#34;section level3 unnumbered&#34;&gt;
+&lt;h3&gt;References&lt;/h3&gt;
+&lt;div id=&#34;refs&#34; class=&#34;references&#34;&gt;
+&lt;div id=&#34;ref-dimopoulos2013vascular&#34;&gt;
+&lt;p&gt;Dimopoulos, Panayotis, Thomas Raus, Erwin Bergmeier, Theophanis Constantinidis, Gregoris Iatrou, Stella Kokkini, Arne Strid, and Dimitrios Tzanoudakis. 2013. “Vascular Plants of Greece: An Annotated Checklist.” &lt;em&gt;Englera&lt;/em&gt;, no. 31. Botanischer Garten und Botanisches Museum, Berlin-Dahlem: 1–372.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-dimopoulos2016vascular&#34;&gt;
+&lt;p&gt;———. 2016. “Vascular Plants of Greece: An Annotated Checklist. Supplement.” &lt;em&gt;Willdenowia&lt;/em&gt; 46 (3). BioOne: 301–47.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-medail2017specific&#34;&gt;
+&lt;p&gt;Médail, Frédéric. 2017. “The Specific Vulnerability of Plant Biodiversity and Vegetation on Mediterranean Islands in the Face of Global Change.” &lt;em&gt;Regional Environmental Change&lt;/em&gt; 17 (6). Springer: 1775–90.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div id=&#34;ref-strid2016atlas&#34;&gt;
+&lt;p&gt;Strid, Arne. 2016. &lt;em&gt;Atlas of the Aegean Flora: Text &amp;amp; Plates&lt;/em&gt;. Botanic Garden; Botanical Museum Berlin, Freie Universität Berlin.&lt;/p&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;/div&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+&lt;hr /&gt;
+&lt;ol&gt;
+&lt;li id=&#34;fn1&#34;&gt;&lt;p&gt;Usually, I am not so extrovert&lt;a href=&#34;#fnref1&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn2&#34;&gt;&lt;p&gt;Like literally, everywhere: it grows on medieval fortresses, house walls, cultivated fields, calcareous cliffs, near beaches&lt;a href=&#34;#fnref2&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn3&#34;&gt;&lt;p&gt;Yes, I know, my idea of fun can be perceived as somewhat bizarre&lt;a href=&#34;#fnref3&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn4&#34;&gt;&lt;p&gt;Papers, historical, sci-fi and sports books, comics, newspapers, anything I get my hands on actually&lt;a href=&#34;#fnref4&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn5&#34;&gt;&lt;p&gt;A lot&lt;a href=&#34;#fnref5&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn6&#34;&gt;&lt;p&gt;Especially in holidays&lt;a href=&#34;#fnref6&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn7&#34;&gt;&lt;p&gt;Mainly regarding R&lt;a href=&#34;#fnref7&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;li id=&#34;fn8&#34;&gt;&lt;p&gt;Well, except cats. Cats rule.&lt;a href=&#34;#fnref8&#34;&gt;↩&lt;/a&gt;&lt;/p&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Aegean biodiversity</title>
+      <link>https://www.kkougiou.com/project/aegean-diversity/</link>
+      <pubDate>Wed, 09 Jan 2019 00:00:00 +0200</pubDate>
+      
+      <guid>https://www.kkougiou.com/project/aegean-diversity/</guid>
+      <description>
+
+&lt;h2 id=&#34;why-focus-on-continental-archipelagos&#34;&gt;Why focus on continental archipelagos?&lt;/h2&gt;
+
+&lt;p&gt;Although oceanic islands are less numerous compared to the non-oceanic, they dominate ecological and evolutionary theory, compared  to continental island systems, which have received much less attention than oceanic islands and archipelagos (e.g., &lt;a href=&#34;http://science.sciencemag.org/content/357/6354/eaam8326&#34; target=&#34;_blank&#34;&gt;Whittaker et al., 2017&lt;/a&gt;). Thus, continental archipelagos, such as the Aegean, provide exceptional opportunities for the refinement and further development of island theory, especially those parts mainly based on oceanic islands.&lt;/p&gt;
+
+&lt;h2 id=&#34;the-aegean-archipelago&#34;&gt;The Aegean archipelago&lt;/h2&gt;
+
+&lt;p&gt;The present-day Aegean archipelago has been shaped by the differential influences of tectonic activity, volcanism and eustatism. Except of the islands of the South Aegean Volcanic Arc, the Aegean Islands are of continental origin &lt;a href=&#34;https://www.sciencedirect.com/science/article/pii/S1871644X05800336&#34; target=&#34;_blank&#34;&gt;Francalanci et al., 2005&lt;/a&gt; and differ significantly in their isolation history (e.g., &lt;a href=&#34;https://www.ingentaconnect.com/content/schweiz/zfgs/2009/00000053/00000001/art00011&#34; target=&#34;_blank&#34;&gt;Kapsimalis et al., 2009&lt;/a&gt;; &lt;a href=&#34;http://sp.lyellcollection.org/content/411/1/145.short&#34; target=&#34;_blank&#34;&gt;Sakellariou &amp;amp; Galanidou, 2016&lt;/a&gt;). The Aegean Sea is located on the margin of the African and the Aegean-Anatolian tectonic plates, whose intermittent connection over geological time [e.g., the Mediterranean desiccation during the Messinian Salinity Crisis (MSC) and the Pleistocene glaciations] has enabled biotic exchange between the several Aegean biogeographical regions  (e.g., &lt;a href=&#34;https://onlinelibrary.wiley.com/doi/abs/10.1111/jzs.12071&#34; target=&#34;_blank&#34;&gt;Poulakakis et al., 2015&lt;/a&gt;; &lt;a href=&#34;https://onlinelibrary.wiley.com/doi/abs/10.1111/jbi.12920&#34; target=&#34;_blank&#34;&gt;Kougioumoutzis et al., 2017&lt;/a&gt;; &lt;a href=&#34;https://jbiolres.biomedcentral.com/articles/10.1186/s40709-017-0061-3&#34; target=&#34;_blank&#34;&gt;Sfenthourakis &amp;amp; Triantis, 2017&lt;/a&gt;). This complex palaeogeographical history of the Aegean has had a profound impact on the distribution (Kougioumoutzis et al. 2017) and diversification of several plant lineages in the region (e.g., &lt;a href=&#34;https://onlinelibrary.wiley.com/doi/full/10.1002/ece3.1791&#34; target=&#34;_blank&#34;&gt;Crowl et al., 2015&lt;/a&gt;; &lt;a href=&#34;https://academic.oup.com/aob/article-abstract/121/2/241/4781605&#34; target=&#34;_blank&#34;&gt;Jaros et al., 2018&lt;/a&gt; ) and has contributed significantly to the emergence of this global biodiversity hotspot.&lt;/p&gt;
+
+&lt;h2 id=&#34;previous-studies&#34;&gt;Previous studies&lt;/h2&gt;
+
+&lt;p&gt;Intensive field work has taken place in the Aegean phytogeographical regions of Greece (see &lt;a href=&#34;https://bioone.org/journals/Willdenowia/volume-46/issue-3/wi.46.46303/Vascular-plants-of-Greece-An-annotated-checklist-Supplement/10.3372/wi.46.46303.full&#34; target=&#34;_blank&#34;&gt;Dimopoulos et al., 2016&lt;/a&gt;) and this has culminated in a wealth of research papers dealing with the species richness patterns of the Aegean archipelago (e.g., Panitsa et al., 2006, 2008, 2010; Trigas et al., 2008, 2013; Kallimanis et al., 2010, 2011), providing valuable insights regarding the factors driving the native and endemic species richness patterns in the Aegean archipelago.&lt;/p&gt;
+
+&lt;h2 id=&#34;aegean-biodiversity-in-numbers&#34;&gt;Aegean biodiversity in numbers&lt;/h2&gt;
+
+&lt;p&gt;The Aegean biogeographical regions host ca. &lt;strong&gt;3300&lt;/strong&gt; plant taxa, &lt;strong&gt;685&lt;/strong&gt; of which are Greek endemics and &lt;strong&gt;478&lt;/strong&gt; Aegean endemics&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:Sensu-Strid-Tan&#34;&gt;&lt;a href=&#34;#fn:Sensu-Strid-Tan&#34;&gt;1&lt;/a&gt;&lt;/sup&gt;. But bear in mind that since then, several new taxa have been described from the Aegean region.] (i.e., occurring exclusively on the Aegean islands). The richest and the poorest  - in species richness terms - region is that of the East Aegean Islands and the Cyclades, respectively. Since endemism rates in Greece diminish in a N-S axis, the Aegean could not be an exception to this rule: the highest endemism rate (17.7%) is observed in the biogeographical region of Kriti-Karpathos, while the lowest (ca. 3%) in the biogeographical region of the North Aegean Islands&lt;sup class=&#34;footnote-ref&#34; id=&#34;fnref:Data-from-Dimopo&#34;&gt;&lt;a href=&#34;#fn:Data-from-Dimopo&#34;&gt;2&lt;/a&gt;&lt;/sup&gt;.&lt;/p&gt;
+
+&lt;h2 id=&#34;the-cyclades&#34;&gt;The Cyclades&lt;/h2&gt;
+
+&lt;p&gt;The biogeographical region of the Cyclades (Kik) has been traditionally considered as floristically impoverished (see Phitos et al., 1995), due to its lower species richness, compared to the other Aegean biogeographical regions. That view is now overturned: Kik emerges as the &lt;strong&gt;second richest Aegean phytogeographical region&lt;/strong&gt; in terms of Greek and Aegean endemic plant species richness and no longer stands out as the poorest Aegean phytogeographical region (see Kougioumoutzis &amp;amp; Tiniakou, 2014 and Figure 4 in Panitsa et al., 2018).&lt;/p&gt;
+
+&lt;h2 id=&#34;biodiversity-hotspots&#34;&gt;Biodiversity hotspots&lt;/h2&gt;
+
+&lt;p&gt;Kriti constitutes the most important endemic hotspot not only in the Aegean, but in the Mediterranean Basin as well (e.g., &lt;a href=&#34;https://scholar.google.gr/scholar?hl=en&amp;amp;as_sdt=0%2C5&amp;amp;q=medail+2017&amp;amp;btnG=&#34; target=&#34;_blank&#34;&gt;Medail, 2017&lt;/a&gt;). &lt;a href=&#34;http://anafi.gr/en/&#34; target=&#34;_blank&#34;&gt;Anafi&lt;/a&gt; - a rather smal, remote, highly geodiverse island - stands out the &lt;em&gt;&lt;em&gt;most important plant diversity hotspot&lt;/em&gt;&lt;/em&gt;, not only in the Cycladic archipelago, but also in the whole South Aegean Sea. Finally, the South Aegean Volcanic Arc (i.e., &lt;a href=&#34;https://en.wikipedia.org/wiki/South_Aegean_Volcanic_Arc&#34; target=&#34;_blank&#34;&gt;SAVA&lt;/a&gt;) seems to be not only one of the most significant geological structures in the Mediterranean area, but also of great conservation value, as the areas comprising it host in their vast majority well above average native and endemic taxa.&lt;/p&gt;
+&lt;div class=&#34;footnotes&#34;&gt;
+
+&lt;hr /&gt;
+
+&lt;ol&gt;
+&lt;li id=&#34;fn:Sensu-Strid-Tan&#34;&gt;Sensu &lt;a href=&#34;http://botanicaserbica.bio.bg.ac.rs/arhiva/pdf/2017_41_2_691_full.pdf&#34; target=&#34;_blank&#34;&gt;Strid &amp;amp; Tan, 2017&lt;/a&gt; and other sources &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:Sensu-Strid-Tan&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;li id=&#34;fn:Data-from-Dimopo&#34;&gt;Data from Dimopoulos et al., 2013, 2016 &lt;a class=&#34;footnote-return&#34; href=&#34;#fnref:Data-from-Dimopo&#34;&gt;&lt;sup&gt;^&lt;/sup&gt;&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+&lt;/div&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>

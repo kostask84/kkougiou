@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DNA sampling on Kostas Kougioumoutzis</title>
+    <link>/tags/dna-sampling/</link>
+    <description>Recent content in DNA sampling on Kostas Kougioumoutzis</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; 2018 Kostas Kougioumoutzis</copyright>
+    <lastBuildDate>Sun, 10 Feb 2019 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="/tags/dna-sampling/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Join the lab</title>
+      <link>/post/join-the-lab/</link>
+      <pubDate>Sun, 10 Feb 2019 00:00:00 +0000</pubDate>
+      
+      <guid>/post/join-the-lab/</guid>
+      <description>Job openingIn our project entitled Species on the brink of extinction funded by the Hellenic Foundation for Research and Innovation (HFRI) and the General Secretariat for Research and Technology (GSRT) under grant agreement No 2418, we are offering three (3) short-term post-graduate positions.
+RequirementsIf you are enthusiastic about working in the field, collecting plant and animal samples and have (some) experience in spatial analysis, species distribution modelling and molecular/genetic techniques, then you should probably consider to apply for one of these positions.</description>
+    </item>
+    
+  </channel>
+</rss>
